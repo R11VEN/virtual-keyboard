@@ -14,7 +14,7 @@
 
   .textarea {
     display: block;
-    width: 800px;
+    width: 700px;
     height: 300px;
     margin: 10px auto 10px;
     padding: 10px;
@@ -22,10 +22,10 @@
   }
 
   .keyboard {
-    width: 860px;
+    width: 700px;
     margin: 0 auto;
-    padding: 5px;
-    background: #888888;
+    padding: 0 5px 5px 5px;
+    background: #00c3ff;
     border: 3px solid #222222;
     border-radius: 5px;
   }
@@ -34,39 +34,66 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 50px;
+    height: 40px;
     margin-top: 5px; 
   }
 
-  .Backspace, .CapsLock, .Shift, .Enter {
+  .Backspace, .CapsLock, .ShiftLeft, .Enter {
     width: 100px;
   }
 
-  .Tab {
-    width: 60px;
+  .ShiftRight {
+    width: 83px;
   }
 
-  .Space {
-    width: 380px;
-  }
-
-  .button {
-    min-width: 50px;
-    height: 50px;
-    padding: 5px;
+  /*.CtrlRight, .CtrlLeft, .AltLeft, .AltRight {
+    min-width: 40px;
+    height: 40px;
+    padding: 10px 5px;
     text-align: center;
     border-radius: 3px;
     cursor: pointer;
     user-select: none;
-    background-color: aqua;
+    background-color: rgb(0, 255, 242);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.3);
+  }*/
+
+  .Tab {
+    width: 50px;
+  }
+
+  .Space {
+    width: 330px;
+  }
+
+  .button {
+    min-width: 40px;
+    height: 40px;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(0, 255, 242);
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.3);
+  }
+
+  .button:hover {
+    background-color: rgb(255, 146, 21);
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
   }
 
   .button:active {
-    background-color: aquamarine;
+    background-color: rgb(255, 146, 21);
+    transform: scale(0.98);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
   }
 
   .button.active {
-    background-color: aquamarine;
+    background-color: rgb(255, 146, 21);
+    transform: scale(0.98);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
   }
 
   .description {
