@@ -46,18 +46,6 @@
     width: 83px;
   }
 
-  /*.CtrlRight, .CtrlLeft, .AltLeft, .AltRight {
-    min-width: 40px;
-    height: 40px;
-    padding: 10px 5px;
-    text-align: center;
-    border-radius: 3px;
-    cursor: pointer;
-    user-select: none;
-    background-color: rgb(0, 255, 242);
-    box-shadow: 5px 5px 2px rgba(0,0,0,0.3);
-  }*/
-
   .Tab {
     width: 50px;
   }
@@ -86,13 +74,13 @@
 
   .button:active {
     background-color: rgb(255, 146, 21);
-    transform: scale(0.98);
+    transform: scale(0.95);
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
   }
 
   .button.active {
     background-color: rgb(255, 146, 21);
-    transform: scale(0.98);
+    transform: scale(0.95);
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
   }
 
